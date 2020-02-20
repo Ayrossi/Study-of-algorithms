@@ -1,6 +1,10 @@
 package ayrossi.sorting;
 
+import ayrossi.utility.SwapCounter;
+
 abstract class SortAlgorithm {
+
+    SwapCounter swapCounter;
 
     abstract void sort(Comparable[] c);
 
